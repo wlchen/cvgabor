@@ -13,15 +13,22 @@ Build *ffmpeg* on your system
 make
 make install
 }}}
+You will get:
 
+_/usr/local/lib/libavcodec.so.*_
+
+_/usr/local/lib/libavformat.so.*_
+
+_/usr/local/include/ffmpeg/*.h_
+
+in your _/usr/_ directory.
 
 
 = Obtain the OpenCV library =
 
 Download the library from http://sourceforge.net/projects/opencvlibrary/.
 
-= Install OpenCV on Your System =
-==  ==
+= Building OpenCV from sources =
 
 
 
