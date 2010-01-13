@@ -28,7 +28,37 @@ in your _/usr/_ directory.
 
 Download the library from http://sourceforge.net/projects/opencvlibrary/.
 
+Since OpenCV is 2.0 now, please download _OpenCV-2.0.0.tar.bz2_, please do not download the windows version.
+
 = Building OpenCV from sources =
+Uncompress the packaged file
+{{{ 
+tar -xjf OpenCV-2.0.0.tar.bz2
+}}}
+Make a temporay build directory
+{{{
+mkdir opencv.build
+}}}
+Enter into the directory
+{{{
+cd opencv.build
+}}}
+Configure the building spec
+{{{ 
+../OpenCV-2.0.0/configure [<extra_options>]
+}}}
+Make
+{{{
+make -j 2
+}}} 
+Install to _/usr/_
+{{{
+sudo make install
+}}}
+Register the library
+{{{
+sudo ldconfig
+}}}
 
 
 
