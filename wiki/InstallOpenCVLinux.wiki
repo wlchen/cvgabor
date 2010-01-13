@@ -15,11 +15,11 @@ make install
 }}}
 You will get:
 
-_/usr/local/lib/libavcodec.so.*_
+_/usr/local/lib/libavcodec.so.* _
 
-_/usr/local/lib/libavformat.so.*_
+_/usr/local/lib/libavformat.so.* _
 
-_/usr/local/include/ffmpeg/*.h_
+_/usr/local/include/ffmpeg/*.h _
 
 in your _/usr/_ directory.
 
