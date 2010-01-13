@@ -1,0 +1,56 @@
+= Requirements =
+To build fully-functionaly libraries and demos, you need have:
+  * GTK+ 2.x or higher.
+  * libpng, zlib, libjpeg and libtiff with development files.
+  * libavcodec from ffmpeg 0.4.9-pre1 or later + headers.
+Earlier version do not work with OpenCV because of different API. *libavcodec* is *LGPL* software, so to use it with *non-GPL* software (such as OpenCV) you need to build and use a shared library _libavcodec.so.*_
+
+Get *ffmpeg* from http://ffmpeg.sourceforge.net
+
+Build *ffmpeg* on your system
+{{{
+./configure --enable-shared
+make
+make install
+}}}
+
+
+
+= Obtain the OpenCV library =
+
+Download the library from http://sourceforge.net/projects/opencvlibrary/.
+
+= Install OpenCV on Your System =
+==  ==
+
+
+
+
+
+
+
+= Details =
+
+
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+
+
+
+
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
